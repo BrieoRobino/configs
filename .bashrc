@@ -113,3 +113,5 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+export TERM=screen-256color

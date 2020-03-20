@@ -14,6 +14,8 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'scrooloose/nerdTree' "Documents tree
 Plugin 'scrooloose/syntastic' "code syntaxis
 Plugin 'victorze/foo' "syntax colors
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
 " All of your Plugins must be added before the following line
  call vundle#end()            " required
  filetype plugin indent on    " required
@@ -68,5 +70,6 @@ set shiftwidth=4
 set softtabstop=4
 set expandtab
 set noshiftround
-
+AirlineTheme deus
 imap jj <Esc>
+imap JJ <Esc>
