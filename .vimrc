@@ -39,10 +39,9 @@ Plugin 'vim-airline/vim-airline-themes'
 syntax enable
 set background=dark " hyper or abyss
 colorscheme abyss
-
 " For plugins to load correctly
 filetype plugin indent on
-
+let g:airline_theme='deus'
 " TODO: Pick a leader key
 " let mapleader = ","
 
@@ -70,6 +69,5 @@ set shiftwidth=4
 set softtabstop=4
 set expandtab
 set noshiftround
-AirlineTheme deus
 imap jj <Esc>
 imap JJ <Esc>
