@@ -80,7 +80,7 @@ if [ -x /usr/bin/dircolors ]; then
     alias grep='grep --color=auto'
     alias fgrep='fgrep --color=auto'
     alias egrep='egrep --color=auto'
-    alias py3='python3'
+    alias py='python3'
     alias cls=clear
 fi
 
