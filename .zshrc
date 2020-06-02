@@ -99,3 +99,4 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias py=python3
 alias cls=clear
+alias uu='sudo apt-get update && sudo apt-get upgrade -y'

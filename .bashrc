@@ -82,6 +82,7 @@ if [ -x /usr/bin/dircolors ]; then
     alias egrep='egrep --color=auto'
     alias py='python3'
     alias cls=clear
+    alias uu='apt-get update && apt-get upgrade -y'
 fi
 
 # colored GCC warnings and errors
