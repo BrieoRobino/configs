@@ -16,6 +16,8 @@ Plugin 'scrooloose/syntastic' "code syntaxis
 Plugin 'victorze/foo' "syntax colors
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
+Plugin 'ycm-core/YouCompleteMe'
+Plugin 'bfrg/vim-cpp-modern'
 " All of your Plugins must be added before the following line
  call vundle#end()            " required
  filetype plugin indent on    " required
@@ -50,6 +52,7 @@ set modelines=0
 
 " Show line numbers
 set number
+set relativenumber
 
 " Show file stats
 set ruler
