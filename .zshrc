@@ -72,6 +72,9 @@ plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
+export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
@@ -105,3 +108,5 @@ alias gl='git log --oneline'
 alias gch='git checkout'
 alias fixtime='sudo hwclock -s'
 alias gpl='git pull'
+alias gls='git ls-tree -r master --name-only'
+alias gimme='sudo apt-get install'
