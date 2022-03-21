@@ -10,6 +10,9 @@ imap JJ <Esc>
 set number
 set relativenumber
 set cursorline
+set ruler 
+set visualbell
+set textwidth=80
 
 " asyncomplete stuff
 inoremap <expr> <Tab>   pumvisible() ? "\<C-n>" : "\<Tab>"
