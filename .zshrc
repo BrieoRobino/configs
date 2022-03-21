@@ -110,3 +110,12 @@ alias fixtime='sudo hwclock -s'
 alias gpl='git pull'
 alias gls='git ls-tree -r master --name-only'
 alias gimme='sudo apt-get install'
+alias vi='nvim'
+
+# Export the Android SDK path 
+#export ANDROID_HOME=$HOME/android-sdk
+#export ANDROID_SDK_ROOT=$HOME/android-sdk
+#export PATH=$PATH:$ANDROID_HOME/cmdline-tools/latest/bin
+#export PATH=$PATH:$ANDROID_HOME/platform-tools
+
+# Fixes sdkmanager error with java versions higher than java 8
