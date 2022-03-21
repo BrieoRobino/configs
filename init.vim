@@ -4,6 +4,8 @@ Plug 'prabirshrestha/vim-lsp'
 Plug 'prabirshrestha/asyncomplete.vim'
 Plug 'prabirshrestha/asyncomplete-lsp.vim'
 Plug 'mattn/vim-lsp-settings'
+Plug 'vim-airline/vim-airline'
+Plug 'jiangmiao/auto-pairs'
 call plug#end()
 
 imap jj <Esc>
