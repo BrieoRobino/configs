@@ -71,10 +71,6 @@ else
   echo ".tmux.conf.local not found in current directory"
 fi
 
-echo "Installing vim-plug"
-curl -fLo ~/.var/app/io.neovim.nvim/data/nvim/site/autoload/plug.vim --create-dirs \
-    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-
 echo "Configure Tmux"
 git clone https://github.com/gpakosz/.tmux.git
 ln -s -f .tmux/.tmux.conf
