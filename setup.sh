@@ -77,4 +77,4 @@ ln -s -f .tmux/.tmux.conf
 cp .tmux/.tmux.conf.local .
 
 
-echo "All tasks completed!"
+echo "Setup completed! Logout and log back in."
